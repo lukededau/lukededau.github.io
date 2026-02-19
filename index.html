@@ -209,14 +209,16 @@
                     <h3>Graduate Research Assistant</h3>
                     <p class="research-affiliation">Columbia University &middot; Feb 2025 &ndash; Present</p>
                     <ul>
-                        <li>Helped create the <strong>CAPTCHA-X benchmark</strong>, a pioneering dataset of 1,839 real-world visual puzzles spanning 7 types, each annotated with chain-of-thought reasoning traces</li>
-                        <li>Built a novel <strong>agentic VLM framework</strong> that reached 83.9% average accuracy on the benchmark, setting new state-of-the-art results across 5 of the 7 puzzle categories</li>
+                        <li>Helped build <strong>CAPTCHA-X</strong>, a first-of-its-kind benchmark of 1,839 real-world visual-spatial puzzles across 7 categories, each paired with step-by-step reasoning annotations and grounding labels for evaluating VLM spatial intelligence</li>
+                        <li>Showed that prompting VLMs with structured reasoning lifts average solve rates by 27.5% over direct prediction, exposing critical gaps in current models' spatial cognition</li>
+                        <li>Developed a general-purpose <strong>agentic VLM pipeline</strong> &mdash; combining a category router, grid mapper, and coordinate refiner &mdash; that reached 83.9% average accuracy without any task-specific fine-tuning, setting state-of-the-art on 5 of 7 CAPTCHA types</li>
                     </ul>
                     <div class="timeline-tags">
-                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Spatial Reasoning</span>
                         <span class="tag">VLMs</span>
                         <span class="tag">Agentic AI</span>
                         <span class="tag">Benchmarking</span>
+                        <span class="tag">Python</span>
                     </div>
                 </div>
             </div>
@@ -265,18 +267,20 @@
                 <div class="project-card" data-animate>
                     <div class="project-card-header">
                         <div class="project-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 0-4 4c0 2 2 3 2 6H8a2 2 0 0 0 0 4h8a2 2 0 0 0 0-4h-2c0-3 2-4 2-6a4 4 0 0 0-4-4z"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/><circle cx="12" cy="12" r="2.5"/><line x1="7.8" y1="7.2" x2="10.2" y2="10.2"/><line x1="16.2" y1="7.2" x2="13.8" y2="10.2"/><line x1="7.8" y1="16.8" x2="10.2" y2="13.8"/><line x1="16.2" y1="16.8" x2="13.8" y2="13.8"/></svg>
                         </div>
                         <a href="https://github.com/luke-chang-CU/HPML_final" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View on GitHub">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
                         </a>
                     </div>
-                    <h3>HPML Final Project</h3>
-                    <p>High Performance Machine Learning research project from Columbia University, exploring optimization techniques for ML model training and inference at scale.</p>
+                    <h3>Accelerating Autoregressive Image Generation</h3>
+                    <p>Investigated speculative decoding and knowledge distillation to speed up autoregressive image synthesis. Trained a VQ-VAE tokenizer and a 253M-parameter teacher transformer, then distilled it into smaller student models to serve as draft decoders. Benchmarked teacher&ndash;student size ratios against FID, Inception Score, and tokens-per-second throughput on Mini-ImageNet.</p>
                     <div class="timeline-tags">
                         <span class="tag">Python</span>
                         <span class="tag">PyTorch</span>
-                        <span class="tag">High Performance ML</span>
+                        <span class="tag">Speculative Decoding</span>
+                        <span class="tag">Knowledge Distillation</span>
+                        <span class="tag">VQ-VAE</span>
                     </div>
                 </div>
             </div>
